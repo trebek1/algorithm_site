@@ -8,7 +8,7 @@ type State = {||};
 
 class Page2 extends Component<State, Props>{
   render(){
-    return <div> Page 1 </div>
+    return <div> Page 2 </div>
   }
 }
 

@@ -15,11 +15,9 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       <Switch>
-        <App>
-          <Route exact path="/" component={App} />
-          <Route exact path="/test1" component={Page1} />
-          <Route exact path="/test2" component={Page2} />
-        </App>
+          <Route path="/test1" component={Page1} />
+          <Route path="/test2" component={Page2} />
+          <Route path="/" component={App} />
       </Switch>
     </BrowserRouter>
   </Provider>,
