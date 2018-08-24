@@ -1,13 +1,14 @@
 // @flow strict-local
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 type Props = {||};
 
 type State = {||};
 
-class App extends Component<State, Props> {
+class App extends Component<Props, State> {
   render() {
     return (
       <div className="App">
